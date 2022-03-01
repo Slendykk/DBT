@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: MYSQL_RDS_NEW_SAKILA
+    database: sakila_raw
+    tables:
+      - name: actor
