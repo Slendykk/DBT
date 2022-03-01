@@ -11,10 +11,10 @@ models:
                 - unique
                 - not_null
 
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
+    - name: stg_actor
+      description: "Test not null actors"
       columns:
-          - name: id
+          - name: actor_id
             description: "The primary key for this table"
             tests:
                 - unique
